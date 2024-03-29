@@ -1,0 +1,41 @@
+.number {
+  --size: 120px; /* Base size for the tile */
+  --font-family: Arial, sans-serif; /* Simple font family */
+  position: absolute;
+  width: calc(var(--size) * 1.5); /* Increase tile size */
+  height: calc(var(--size) * 1.5); /* Increase tile size */
+  display: flex;
+  line-height: 25px;
+  align-items: center; /* Adjusted property */
+  justify-content: center;
+  background: var(--tile);
+  font-family: var(--font-family);
+  font-size: 14px; /* Decrease font size to fit more data */
+  color: black;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: left 0.4s ease-in-out, top 0.4s ease-in-out;
+  text-align: center;
+}
+
+.number.correct {
+  background: var(--correct);
+}
+
+.number.slot--0 { left: 0px; top: 0; }
+.number.slot--1 { left: calc(var(--size) * 1.5); top: 0; }
+.number.slot--2 { left: calc(2 * var(--size) * 1.5); top: 0; }
+.number.slot--3 { left: calc(3 * var(--size) * 1.5); top: 0; }
+.number.slot--4 { left: 0; top: calc(var(--size) * 1.5); }
+.number.slot--5 { left: calc(var(--size) * 1.5); top: calc(var(--size) * 1.5); }
+.number.slot--6 { left: calc(2 * var(--size) * 1.5); top: calc(var(--size) * 1.5); }
+.number.slot--7 { left: calc(3 * var(--size) * 1.5); top: calc(var(--size) * 1.5); }
+.number.slot--8 { left: 0; top: calc(2 * var(--size) * 1.5); }
+.number.slot--9 { left: calc(var(--size) * 1.5); top: calc(2 * var(--size) * 1.5); }
+.number.slot--10 { left: calc(2 * var(--size) * 1.5); top: calc(2 * var(--size) * 1.5); }
+.number.slot--11 { left: calc(3 * var(--size) * 1.5); top: calc(2 * var(--size) * 1.5); }
+.number.slot--12 { left: 0; top: calc(3 * var(--size) * 1.5); }
+.number.slot--13 { left: calc(var(--size) * 1.5); top: calc(3 * var(--size) * 1.5); }
+.number.slot--14 { left: calc(2 * var(--size) * 1.5); top: calc(3 * var(--size) * 1.5); }
+.number.slot--15 { left: calc(3 * var(--size) * 1.5); top: calc(3 * var(--size) * 1.5); }
+.number.disabled { pointer-events: none; background-color: transparent; }

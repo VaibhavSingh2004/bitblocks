@@ -1,0 +1,25 @@
+:root {
+  --size: 100px;
+  --tile: #FFD3A0;
+  --correct: #ce8f47;
+}
+
+/* Define fallback font families */
+html, body {
+  font-family: Arial, sans-serif; /* Fallback font family */
+  background: #FFF3E4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+/* Use the same font family for all elements within .App */
+.App * {
+  font-family: Arial, sans-serif; /* Fallback font family */
+}
