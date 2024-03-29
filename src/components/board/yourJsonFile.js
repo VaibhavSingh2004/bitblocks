@@ -2,40 +2,9 @@ const getRandomNonce = () => Math.floor(Math.random() * 100000);
 
 const getRandomBlockId = () => `id@-${Math.floor(Math.random() * 1000)}`;
 
-const getPreviousHash = (currentIndex) => {
-    if (currentIndex <= 0) {
-        return null;
-    }
-    const previousBlock = data.find(block => block.index === currentIndex - 1);
-    return previousBlock ? previousBlock.hash : null;
-};
 
-const generateHash = (nonce) => {
-    // Convert nonce to a string
-    const nonceString = nonce.toString();
 
-    // Get the sum of ASCII values of all characters in the nonce string
-    let sum = 0;
-    for (let i = 0; i < nonceString.length; i++) {
-        sum += nonceString.charCodeAt(i);
-    }
 
-    // Take the sum modulo 100000 to ensure a 5-digit hash value
-    const hash = sum % 100000;
-
-    // Convert the hash to a string and split it into two parts
-    const hashString = hash.toString();
-    const midIndex = Math.floor(hashString.length / 2);
-
-    // Get two random characters to add to the middle of the hash
-    const randomChar1 = String.fromCharCode(Math.floor(Math.random() * 26) + 65); // Random uppercase letter
-    const randomChar2 = String.fromCharCode(Math.floor(Math.random() * 26) + 65); // Random uppercase letter
-
-    // Insert the random characters into the middle of the hash string
-    const modifiedHash = hashString.slice(0, midIndex) + randomChar1 + randomChar2 + hashString.slice(midIndex);
-
-    return modifiedHash;
-};
 
 const data = [
     {

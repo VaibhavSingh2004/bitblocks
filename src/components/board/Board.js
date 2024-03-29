@@ -5,7 +5,7 @@ import Overlay from "../overlay/Overlay";
 import NewGame from "../new-game/NewGame";
 import Winner from "../winner/Winner";
 import data from "./yourJsonFile"; // Import your JSON data
-
+import { Link } from "react-router-dom";
 const Board = () => {
     const shuffle = () => 
         new Array(16)
@@ -104,7 +104,9 @@ const Board = () => {
                 <NewGame reset={reset} className="newgamebtn"/>
                 <button onClick={validateBlocks} className="Validatebtn">Validate Blocks</button>
             </div>
-            
+            <Link to="/">
+                About
+            </Link>
         </div>
     );
 };
