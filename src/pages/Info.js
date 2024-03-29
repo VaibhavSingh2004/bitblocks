@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 const Info = () => {
   return (
     <div className='Info'>
@@ -18,7 +19,9 @@ const Info = () => {
               <li className='lis'>Accessible Learning</li>
               <li className='lis'>Fun Games</li>
             </div>
-            <button className="button-24">Learn</button>
+            <Link to='https://bitblocks.my.canva.site/learn'>
+              <button className="button-24">Learn</button>
+            </Link>
           </div>
         </div>
       </div>

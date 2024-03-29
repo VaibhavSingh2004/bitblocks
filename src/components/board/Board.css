@@ -1,33 +1,42 @@
 .game {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-left: 180px;
 }
 
 .board {
+  margin-top: 150px;
   display: grid;
   grid-template-columns: repeat(4, 180px); /* Adjust the size of each column */
   grid-template-rows: repeat(4, 180px); /* Adjust the size of each row */
   border-radius: 10px;
+  width: 735px;
+  justify-content: center;
   position: relative;
   overflow: hidden;
   border: 10px solid #915733;
 }
-
 .button-wrapper{
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
 }
-button{
-  border: 0 transparent;
-  background-color: var(--correct);
+.Validatebtn{
+  height: 60px;
+  width: 180px;
+  background-color: #915733;
   color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
-  font-size: 20px;
-  cursor: pointer;
+  border-radius: 6px;
+
 }
-button:hover{
-  background-color: var(--tile);
+.Validatebtn:hover{
+  background: var(--correct);
+  color: white;
+  border-radius: 6px;
 }
 p {
   margin-top: 20px; /* Adjust margin as needed */

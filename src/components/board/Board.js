@@ -100,9 +100,9 @@ const Board = () => {
                 })}
             </div>
             <Winner numbers={numbers} reset={reset}/>
-            <NewGame reset={reset} />
             <div className="button-wrapper">
-                <button onClick={validateBlocks}>Validate Blocks</button>
+                <NewGame reset={reset} className="newgamebtn"/>
+                <button onClick={validateBlocks} className="Validatebtn">Validate Blocks</button>
             </div>
             
         </div>
