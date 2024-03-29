@@ -12,14 +12,6 @@ WEBSITE LINK - https://6606bd8c773f52f7365ec458--preeminent-otter-79e660.netlify
 
 TECHNOLOGY USED - React, Express, WebSocket.io
 TOOLS USED - Canva, VS Code, Postman
-
-
-![Screenshot (1498)](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/b53a3b67-c447-4838-9ab2-87db92b46454)
-![Screenshot 2024-03-29 190635](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/7b585a80-af05-4d0a-bfd5-b4fdc0410baa)
-![Screenshot 2024-03-27 214038](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/dd082c8b-c77a-4012-86ef-eeccafa81280)
-![Screenshot (1490)](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/9b9e6388-dd7b-43bb-94c5-d6e0f270063c)
-![Screenshot 2024-03-29 111546](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/c71ed150-6572-4269-91d3-b25238d2bafb)
-![Screenshot (1491)](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/3e4c72ea-d604-49ec-9184-f4d0cb0b55f6)
 ![Screenshot (1492)](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/4f8fef5c-e1da-4c18-b8f6-2bf489af2585)
 ![Screenshot (1493)](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/db420ef5-b19a-4fa6-8a98-3643e6cab4d3)
 ![Screenshot (1494)](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/7568612e-d38e-49bc-b5e3-a9cc257a4cd7)
