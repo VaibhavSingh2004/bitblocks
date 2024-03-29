@@ -20,5 +20,7 @@ TOOLS USED - Canva, VS Code, Postman
 ![Screenshot (1495)](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/15223cac-ff85-4b01-b0d0-2a7b5fbb6939)
 ![Screenshot (1496)](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/e86b823c-a5e9-4e41-b968-242f1d78798a)
 ![Screenshot (1497)](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/c4adb4c3-0abe-4376-88ad-78645f761491)
-
+![Screenshot (1498)](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/bdc29f39-7250-464d-bfc2-f08c130d5f92)
+![Screenshot 2024-03-29 190635](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/646d58ef-9814-436b-8e0d-5f7c0aedac45)
+![Screenshot (1499)](https://github.com/VaibhavSingh2004/bitblocks/assets/112901539/5be70315-ab5c-4986-9c65-720bf75ecce4)
 
